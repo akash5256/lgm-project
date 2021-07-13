@@ -1,0 +1,544 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.bg-img {
+  /* The image used */
+  background-image: url("image/pic1.jpg");
+
+  height: 90vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.container{
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.heading{
+  position: absolute;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 18%;
+  margin-left: 35%;
+  font-weight: bolder;
+  color: white;
+
+}
+.underhead{
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.underhead a {
+  color: black;
+  text-decoration: none;
+}
+.underhead a:hover{
+  text-decoration: none;
+  border-radius: 10px;
+
+  
+}
+
+.button1,.button2{
+  color: black;
+  background-color: yellow;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 12px;
+  padding: 10px;
+  marign: 10px;
+}
+.button2{
+  background-color: violet;
+  color: white;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: transperent;
+  padding-left:180px;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.topnav a:hover{
+  text-decoration:none;
+
+}
+
+.logo{
+	font-weight: bolder;
+	font-size: 50px;
+  color: black;
+	
+}
+
+.space{
+  
+  text-decoration: none;
+  background-color: transparent;
+
+
+}
+
+.secondsection{
+  margin-top: 50px;
+
+}
+
+
+.para2{
+  max-width: 30%;
+  margin-left: 20%;
+  text-transform: capitalize;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  margin-top: 40px;
+  float: left;
+
+}
+.ladki{
+  float: right;
+  height: 390px;
+  width: 500px;
+  margin-right: 20px;
+  padding-right: 150px;
+
+
+
+}
+.thirdsection{
+  clear: both;
+}
+.card1 img,.card2 img, .card3 img{
+  height: 100px;
+  width: 100px;
+}
+.cards{
+  max-width: 90%;
+  display: inline-flex;
+  text-align: center;
+  margin: 100px;
+  margin-top:0px;
+  text-transform: capitalize;
+
+
+ }
+
+ .cards button{
+  color: #e7e1d2;
+  background-color: #1c3f10;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+  font-size: 15px;
+  padding:5px 20px 5px 20px;
+  marign: 20px;
+  border-radius: 0px;
+  
+
+ }
+ .cards button:hover{
+  border-radius: 0px;
+  transition: 0.2s;
+  border: 0px;
+  color: white;
+  background-color: black;
+ }
+
+.card1:hover,.card2:hover,.card3:hover{
+ transition: 0.3s;
+  box-shadow: 0 40px 89px 0 rgba(0, 0, 0, 0.8), 0 6px 60x 0 rgba(0, 0, 56,0.90);
+
+ 
+}
+
+
+.card1,.card2,.card3{
+
+  padding: 28px;
+  margin: 30px;
+  border:0px;
+  box-shadow: 0 40px 89px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.90);
+ 
+
+}
+.procards img{
+  height: 250px;
+  width: 300px;
+}
+.procards{
+  display: flex;
+  margin-top: 30px;
+
+
+}
+.procards button{
+  text-align: center;
+  text-transform: capitalize;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+   color: #e7e1d2;
+  background-color: #1c3f10;
+  border: 0px;
+}
+.procard1,.procard2,.procard3,.procard4{
+  padding: 5px;
+   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.8), 0 6px 2px 0 rgba(0, 0, 0, 0.90);
+
+}
+
+.procard2,.procard4{
+  background-color:#e7e1d2 ;
+}
+
+.prohead{
+  text-align: center;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding-top: 10px;
+  font-weight: bolder;
+}
+.protext{
+  text-align: center;
+  
+}
+.fifthsection{
+  margin-top: 40px;
+}
+
+video{
+
+  width: 100%;
+  align-content: center;
+  height: 80vh;
+
+}
+.video{
+  margin-top: 20px;
+}
+
+
+.heading2,.heading3,.heading4,.heading5,.heading6,.heading7,.heading8,.heading9{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: capitalize;
+
+}
+
+.team1 img{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.team1{
+  display: flex;
+  background-color: #9ce08a;
+}
+
+.member1,.member2,.member3{
+  text-align: center;
+  width: 33.33%;
+  padding: 50px;
+
+}
+.memname{
+  font-weight: bolder;
+  font-size: 18px;
+  padding-top: 15px;
+text-transform: capitalize;}
+.mempost{
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.heading5,.heading6.,.heading7,.heading8,.heading8{
+  margin: 20px;
+}
+
+
+  .carousel-inner img{
+    min-height: 60vh;
+    width: 600px;
+
+
+  }
+#myCarousel{
+  width: 600px;
+  margin: 0 auto;
+  padding:10px;
+}
+
+.background{
+  margin-top: 20px;
+  background-image:url('https://live.staticflickr.com/7139/7741063450_64953f8c8d_b.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 40vh;
+  text-align: center;
+  background-size: cover;
+
+
+}
+
+.heading7{
+  padding-top: 25px;
+  color: black;
+  font-style: italic;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+#email{
+  width: 400px;
+  height: 50px;
+  border: 0px solid black;
+  background-color: transparent;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  outline: none;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-radius: 50px;
+}
+
+#signin{
+  width: 100px;
+  height: 50px;
+  font-size: 19px;
+  text-transform: capitalize;
+  background-color: #2a0636;
+  color: white;
+  border: 0px;
+}
+
+#signin:hover{
+  transition: 0.5s;
+  border-radius: 20px;
+  border: 2px double white;
+
+}
+.button3{
+  margin-top: 20px;
+  width: 500px;
+  height: 50px;
+  font-size: 19px;
+  text-transform: capitalize;
+  background-color: #4d0000;
+  color: white;
+  font-weight: bolder;
+  border: 0px;
+  text-decoration: none;
+
+}
+.button3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.button3:hover{
+  transition: 0.5s;
+  border-radius: 20px;
+  border: 2px double white;
+
+}
+.button3 a:hover{
+ text-decoration: none;
+ color: white;
+ letter-spacing: 1.2px;
+ transition: 0.2s;
+
+}
+
+::placeholder {
+  color: black;
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 10px;
+}
+
+.heading8{
+  padding-top: 50px;
+}
+
+.copycards .cards img{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  border: 2px double black;
+
+}
+
+.copycards .cards{
+  background-color:#73cdcd;
+  color: white;
+  margin-top: 20px;
+
+}
+.copycards .card1{
+  background-color:#0a6a6a ;
+}
+.copycards .card2{
+  background-color:#0a6a6a ;
+}
+.copycards .card3{
+  background-color:#0a6a6a ;
+}
+
+.copycards button{
+  background-color: #4e0000;
+}
+.copycards button:hover{
+  border-radius: 20px;
+  background-color: white;
+  color: #4e0000;
+}
+
+.location{
+  margin-top: 20px;
+
+}
+.map img{
+  height: 50vh;
+  width: 40%;
+  float: left;
+}
+
+.mform{
+  background-color:#0a6a6a;
+  height: 50vh;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 20px;
+  padding: 100px;
+  color: white;
+}
+
+.mform label{
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding-right: 10px;
+  color: black;
+
+}
+.mform input{
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  outline: none;
+  padding: 7px 60px 7px 60px;
+  margin: 2px;
+}
+
+.submit2{
+  margin-top: 15px;
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  border: 0px;
+
+}
+.submit2:hover{
+  border-radius: 50px;
+  color: white;
+  background-color: #4e0000;
+
+}
+.fa {    
+text-align: center;    
+  font-size: 20px;  
+  width: 30px;
+height: 30px;  
+padding: 0 auto;
+padding-top: 8px;
+border: 0px solid transparent;
+border-radius: 50%;
+}  
+
+.fa:hover{
+  color: white;
+  text-decoration: none;
+}
+.fa-facebook {  
+  background: #3B5998;  
+  color: white;  
+}  
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+}  
+.fa-linkedin {  
+  background: #007bb5;  
+  color: white;  
+}  
+.fa-instagram {  
+  background: #833AB4;  
+  color: white;  
+}  
+.footer{
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  margin-top: 20px;
+
+}
+
+.ccard1,.ccard2,.ccard3{
+  width: 33%;
+  text-align: center;
+  font-size: 13px;
+}
+.ccard1 div{
+  width: 50%;
+  letter-spacing:1.5px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+
+}
+.faddres,.links,.contactus{
+  font-weight: bolder;
+  font-size: 16px;
+  letter-spacing: 1.3px;
+  text-transform: capitalize;
+
+}
+.ccard2 div,.ccard3 div{
+  padding-top: 10px;
+  letter-spacing: 1.3px;
+}
+.ccard2 div{
+  padding-top: 20px;
+}
+.Akash{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-weight: bolder;
+  background-color:#0a6a6a;
+  padding-top: 5px;
+  color: white;
+}
